@@ -59,7 +59,9 @@
                 
                 color: #000;
             }
-            
+            span#warning {
+                color: rgb(241, 104, 104);
+            }
 		</style>
          <script type="importmap">
 			{
@@ -74,15 +76,15 @@
 	<body>
         <div class="main-container">
             <h1><span>3D</span> Plane</h1>
-            <p><strong>Note:</strong> The quality of the model in this viewer may not be as high as in Blender 3D.</p>
+            <p><strong>Note:</strong> The quality of the model in this viewer may not be as high as in Blender 3D. <span id="warning"> Loading may take time Please wait.</span></p>
 
             <div id="three-container">
                 
             </div>
             <p>
                 🖱️ <strong>Zoom:</strong> Use the scroll wheel <br>
-                🖱️ <strong>Rotate:</strong> Right-click and move the mouse <br>
-                🖱️ <strong>Pan (Move):</strong> Hold <kbd>Shift</kbd> + Right-click and drag
+                🖱️ <strong>Rotate:</strong> Left-click and move the mouse <br>
+                🖱️ <strong>Pan (Move):</strong> Right-click and drag
             </p>
             
         </div>
